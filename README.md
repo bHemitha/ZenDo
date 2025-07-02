@@ -1,30 +1,67 @@
-# Planmate app
+# PlanMate 🧠📅
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+**PlanMate** is your serene, beautifully designed personal life organizer. With a timeless and minimalist aesthetic, it helps users plan their day, track weekly productivity, manage time-blocked schedules, write personal journal entries, and visualize everything in an elegant calendar interface. Inspired by vintage planners and Moleskine notebooks, PlanMate brings structure and calm to your digital life.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/abcdef0is0username-8071s-projects/v0-planmate-app)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/KFhZxXAnjuV)
+---
 
-## Overview
+## ✨ Features
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+### ✅ Daily To-Do List
+- Add, delete, and manage tasks
+- Mark tasks complete/incomplete
+- Automatically carry forward unfinished tasks to the next day
 
-## Deployment
+### 🕰️ Time-Blocked Scheduling
+- Assign time ranges to tasks (start and end)
+- Schedule your day hour-by-hour
+- Visual planner layout
 
-Your project is live at:
+### 📅 Calendar View
+- A minimalist calendar to view tasks and diary entries by date
+- Click on any date to view/edit content
+- Subtle highlights for dates with content
 
-**[https://vercel.com/abcdef0is0username-8071s-projects/v0-planmate-app](https://vercel.com/abcdef0is0username-8071s-projects/v0-planmate-app)**
+### 📓 Daily Journal / Diary
+- One diary entry per day with rich text (Markdown supported)
+- Autosave functionality (local or cloud)
+- Calendar-linked entry browsing
+- Private and personal writing space
 
-## Build your app
+### 📊 Weekly Activity Tracker
+- Visual graph showing task completion over the current week
+- Daily stats and overall productivity score
+- Weekly review section
 
-Continue building your app on:
+### 💬 Daily Affirmations
+- Calming quote or message displayed every morning
+- Option to customize or upload your own affirmations
 
-**[https://v0.dev/chat/projects/KFhZxXAnjuV](https://v0.dev/chat/projects/KFhZxXAnjuV)**
+### 🌙 Timeless Old-Money Aesthetic
+- Fonts like *Cormorant Garamond*, *Playfair Display*, and *DM Serif*
+- Colors: muted olive, ivory, soft navy, dusty gold
+- Elegant spacing, soft shadows, gentle animations
 
-## How It Works
+---
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## 🚀 Tech Stack (All Free Resources)
+
+| Layer        | Technology                             |
+|--------------|-----------------------------------------|
+| Frontend     | React.js, Tailwind CSS                  |
+| State Mgmt   | React Hooks + Context / Zustand         |
+| Calendar     | `react-calendar` or `react-big-calendar`|
+| Journal      | `react-markdown`, `react-quill`         |
+| Storage      | `localStorage` (MVP)                    |
+| Backend (opt)| Node.js + Express                       |
+| Database     | PostgreSQL (via Supabase or ElephantSQL)|
+| Hosting      | Vercel (frontend), Render or Supabase   |
+| Auth (opt)   | Firebase Auth or Supabase Auth          |
+
+---
+
+## 🛠️ Installation & Setup
+
+### 🔧 1. Clone the Repo
+```bash
+git clone https://github.com/yourusername/planmate.git
+cd planmate
